@@ -24,7 +24,7 @@ export default function ContactCard(props) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          name: contacts[id - 1].firstname,
+          name: contacts[id - 1].firstname + " " + contacts[id - 1].lastname ,
           message: otpMessage
         })
       }
