@@ -19,7 +19,7 @@ export default function ContactCard(props) {
     }
     setapicalled(true);
     fetch(
-      `http://localhost:5000/sendsms/${contacts[id - 1].contact}`,
+      `https://blue-jittery-salamander.cyclic.app/sendsms/${contacts[id - 1].contact}`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },

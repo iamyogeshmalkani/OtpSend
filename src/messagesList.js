@@ -4,7 +4,7 @@ export default function Messages() {
     const [messages,setmessages] = useState([])
     useEffect(()=>{
         fetch(
-            `http://localhost:5000/getMessages`,
+            `https://blue-jittery-salamander.cyclic.app/getMessages`,
             {
               method: "GET",
               headers: { "Content-Type": "application/json" },
