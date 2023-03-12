@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "firstname": "Yogesh",
+    "lastname": "Malkani",
+    "contact": "8860417669"
+  },
+  {
+    "id": 2,
+    "firstname": "Kajal",
+    "lastname": "Shuklas",
+    "contact": "9667111878"
+  },
+  {
+    "id": 3,
+    "firstname": "Sagar",
+    "lastname": "Signh Jani",
+    "contact": "9899733638"
+  },
+  {
+    "id": 4,
+    "firstname": "sagar",
+    "lastname": "singh",
+    "contact": "9899733638"
+  },
+  {
+    "id": 5,
+    "firstname": "sagar",
+    "lastname": "singh",
+    "contact": "9899733638"
+  }
+]

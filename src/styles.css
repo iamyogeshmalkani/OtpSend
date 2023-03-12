@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.t-a-center {
+  text-align: center;
+}
+.loader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown button,
+ul {
+  width: 50%;
+}
+.table {
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+}
+.table table {
+  border: 1px solid grey;
+}
+table .header {
+  background-color: lightgray;
+}
+thead {
+  background-color: #0a6efd;
+  color: white;
+}
+.dropdown .clickable {
+  cursor: pointer;
+}
+.clickable:hover {
+  background: #e0e4e9;
+}
+
+.contactInfo {
+  margin: auto;
+  width: 50%;
+}
+.send-message {
+  background-color: #0a6efd;
+  color: white;
+}
